@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .arrow{
+            width: 40px;
+            height: 40px;
+            background-color:lightsteelblue;
+            margin-left: 300px;
+            border-radius: 20px;
+        }
+        .arrow p{
+            text-align: center;
+            font-size: 30px;
+            font: bold;
+        }
+        .sixth{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .sixth p{
+            font: bold;
+            font-size: 30px;
+        }
+        .box{
+            width: 500px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 350px;
+            margin-top: 50px;
+            background-image: linear-gradient(to right,rgba(129,157,255,0.28) , rgba(16,16,16,0));
+        }
+        .upcoming{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        .first , .second{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+        .data{
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+        }
+        .first{
+            width: 1000px;
+            height: 100px;
+            margin-left: 220px;
+            margin-bottom: 30px;
+        }
+        .data{
+            display: flex;
+            flex-direction: column;
+        }
+        .data p{
+            font-size: 25px;
+        }
+        .images{
+            width: 120px;
+            height: 80px;
+            margin-left: 20px;
+        }
+        .images1{
+            width: 120px;
+            height: 80px;
+            margin-left: 15px;
+        }
+        .boxes{
+            justify-content: space-evenly;
+            background-color: rgba(140,177,255,0.6);
+            width: 1000px;
+            margin-left: 290px;
+            height: 180px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 15px;
+        }
+        .photo{
+            width: 200px;
+            height: 180px;
+        }
+        .tex p{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="arrow">
+        <p><</p>
+    </div>
+    <div class="sixth">
+        <p>Workout Tracker</p>
+        <img src="photo1.png" alt="">
+        <div class="box">
+            <img src="photo2.png" alt="">
+            <p>You've burned fewer calories than <br> yesterday. Time to get moving! </p>
+        </div>
+        <div class="upcoming">
+            <p>Upcoming Workout</p>
+            <p>See more</p>
+        </div>
+        <div class="section">
+            <div class="first">
+                <img src="photo3.png" alt="">
+                <div class="data">
+                    <p>Full Body Workout</p>
+                    <p>Today 3PM</p>
+                </div>
+                <img src="photo5.png" alt="" class="images">
+            </div>
+            <div class="second">
+                <img src="photo4.png" alt="">
+                <div class="data">
+                    <p>Upper Body Workout</p>
+                    <p>4 Feb,3:30PM</p>
+                </div>
+                <img src="photo5.png" alt="" class="images1">
+            </div>
+            <p>What Do You Want to Train</p>
+            <div class="boxes">
+                <div class="tex">
+                    <p>Full Body Workout</p>
+                    <p>Arms</p>
+                    <p>Chest</p>
+                </div>
+                <img src="photo6.png" alt="" class="photo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
